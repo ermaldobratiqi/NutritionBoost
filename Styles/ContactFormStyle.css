@@ -1,0 +1,146 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  }
+  .Logo{
+    width:100%;
+    height:50px;
+    background-color:#10ac56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Logo a{
+    text-decoration: none;
+    color:White;
+  }
+  #L{
+    width:200px;
+    height: 50px;
+  }
+  .Container{
+    width: 100%;
+    height: 897px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#10ac56;
+  }
+  .ContactUs-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height:550px;
+    border:0px ;
+    border-radius: 10%;
+    box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.3);
+    background-color: white;
+  }
+  
+  .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:200px;
+    height:400px;
+  
+  }
+  
+  .ContactUs-box h2{
+    color:#10ac56;
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 1px;
+    text-align: center;
+  }
+  #FirstName{
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+    color:black;
+    width: 250px;
+  }
+  #FirstName:focus{
+    border-bottom: 1px solid #C3073F;
+  }
+  #LastName{
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+    color:black;
+    width: 250px;
+  }
+  #LastName:focus{
+    border-bottom: 1px solid #C3073F;
+  }
+  #Email{
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+    color:black;
+    width: 250px;
+  }
+  #Email:focus{
+    border-bottom: 1px solid #C3073F;
+  }
+  #Message{
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+    color:black;
+    height:120px;
+    width: 300px;
+    resize: none;
+    font-size: 14px;
+  }
+  #Message:focus{
+    border-bottom: 1px solid #C3073F;
+  }
+  #Submit{
+    border:1px solid #10ac56;
+    padding: 15px 70px;
+    background-color: #10ac56;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color:white;
+  }
+  
+  #Submit:hover{
+    background-color: #a7a7a7;
+    color:#10ac56;
+  }
+  .ErrorMsg{
+    color:red;
+    font-size: 13px
+  }
+  .map{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  @media screen and (max-width:900px){
+  
+  .ContactUs-box{
+    width: 400px;
+    height:450px;
+  
+  }
+  
+}
